@@ -1,0 +1,13 @@
+{
+    "name": "NODEX Actions",
+    "version": "0.1.0",
+    "manifest_version": 3,
+    "background": {
+      "service_worker": "background.js",
+      "type": "module"
+    },
+    "action": {
+      "default_title": "NODEX Actions"
+    },
+    "permissions": ["debugger", "tabs"]
+  }  
